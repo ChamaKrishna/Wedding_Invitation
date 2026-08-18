@@ -420,6 +420,7 @@ footer h2 {
 
     .hero {
         min-height: 700px;
+		min-height: 700px;
     }
 
     .small-title {
