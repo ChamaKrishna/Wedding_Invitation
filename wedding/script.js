@@ -3,7 +3,7 @@
 // ===============================
 
 const weddingDate = new Date(
-    "December 20, 2026 09:30:00"
+    "August 30, 2026 11:07:00"
 ).getTime();
 
 function updateCountdown() {
