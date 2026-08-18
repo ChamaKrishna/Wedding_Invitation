@@ -279,7 +279,7 @@ body {
     grid-template-columns:
         repeat(2, 1fr);
 
-    gap: 50px;
+    gap: 20px;
 }
 
 .gallery-grid img {
