@@ -68,6 +68,34 @@ const musicBtn =
 
 let playing = false;
 
+
+// 🔊 AUTO PLAY MUSIC
+window.addEventListener("load", function () {
+
+    music.volume = 0.7;
+
+    music.play()
+        .then(function () {
+
+            playing = true;
+
+            musicBtn.innerHTML = "⏸️";
+
+        })
+        .catch(function (error) {
+
+            console.log("Autoplay blocked by browser");
+
+            playing = false;
+
+            musicBtn.innerHTML = "🎵";
+
+        });
+
+});
+
+
+// 🎵 MUSIC ON/OFF BUTTON
 musicBtn.addEventListener("click", function () {
 
     if (playing) {
