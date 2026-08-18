@@ -416,6 +416,36 @@ footer h2 {
 
 
 /* Mobile */
+
+@media (min-width: 600px) {
+
+	 .hero {
+        min-height: 500px;
+    }
+
+    .small-title {
+        font-size: 16px;
+    }
+
+    .hero h1 {
+        font-size: 75px;
+    }
+
+    .hero h1 span {
+        display: block;
+        font-size: 40px;
+    }
+
+    .invite-text {
+        font-size: 18px;
+    }
+
+    .date {
+        font-size: 17px;
+        letter-spacing: 3px;
+    }
+
+	}
 @media (max-width: 768px) {
 
     .hero {
@@ -512,35 +542,7 @@ footer h2 {
     overflow: hidden;
 }
 
-@media (min-width: 600px) {
 
-	 .hero {
-        min-height: 700px;
-    }
-
-    .small-title {
-        font-size: 16px;
-    }
-
-    .hero h1 {
-        font-size: 75px;
-    }
-
-    .hero h1 span {
-        display: block;
-        font-size: 40px;
-    }
-
-    .invite-text {
-        font-size: 18px;
-    }
-
-    .date {
-        font-size: 17px;
-        letter-spacing: 3px;
-    }
-
-	}
 
 
 /* Left side */
