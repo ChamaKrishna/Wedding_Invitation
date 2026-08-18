@@ -419,8 +419,17 @@ footer h2 {
 @media (max-width: 767px) {
 
     .hero {
-        min-height: 700px;
-		width: 100%;
+        min-height: 600px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
     }
 
     .small-title {
@@ -428,13 +437,15 @@ footer h2 {
     }
 
     .hero h1 {
-        font-size: 75px;
+        font-size: 50px;
+        line-height: 1.1;
     }
 
     .hero h1 span {
         display: block;
-        font-size: 40px;
+        font-size: 30px;
     }
+}
 
     .invite-text {
         font-size: 18px;
