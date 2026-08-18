@@ -425,8 +425,8 @@ footer h2 {
     }
 
     .hero img {
-        width: 50px;
-        max-width: 50px;
+        width: 100%;
+        max-width: 100%;
         height: auto;
         display: block;
         object-fit: contain;
