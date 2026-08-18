@@ -416,11 +416,11 @@ footer h2 {
 
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     .hero {
         min-height: 700px;
-		min-width: 400px;
+		width: 100%;
     }
 
     .small-title {
